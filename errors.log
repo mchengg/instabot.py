@@ -1,0 +1,81 @@
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 869, in auto_unfollow
+    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mcheng/Documents/Repository/git/instabot/src/instabot.py", line 666, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "/usr/local/lib/python3.7/site-packages/requests/sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1049, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 908, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
