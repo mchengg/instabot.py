@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "between_boundaries.py", line 7, in <module>
+    from src import InstaBot
+  File "/home/pi/Repository/instabot/src/__init__.py", line 1, in <module>
+    from .instabot import InstaBot
+  File "/home/pi/Repository/instabot/src/instabot.py", line 22, in <module>
+    from fake_useragent import UserAgent
+ImportError: No module named 'fake_useragent'
+12.11.2018_21:56 Instabot v1.2.0 started at 12.11.2018 21:56:
+
+12.11.2018_21:56 Trying to login as between_boundaries...
+
+12.11.2018_21:56 between_boundaries login success!
+12.11.2018_21:56 Get Media by tag: naturephotography
+12.11.2018_21:56 Removing already liked medias..
+12.11.2018_21:56 Trying to like media: 1911409522460959547
+12.11.2018_21:56 Liked: 1911409522460959547. Like #1.
+12.11.2018_21:56 Trying to follow: 6222095519
+12.11.2018_21:56 Followed: 6222095519 #1.
+12.11.2018_21:56 between_boundaries : Get media id on recent feed 
+ 12.11.2018 21:56
+12.11.2018_21:56 Except on get media!!
+xxxxxxx user info list is empty!!! xxxxxxxxx
+12.11.2018_21:56 between_boundaries : Get media id on recent feed 
+ 12.11.2018 21:56
+12.11.2018_21:56 Except on get media!!
+12.11.2018_21:57 ======> Get media id by Tag <======
+12.11.2018_21:57 Get media by user success!
+12.11.2018_21:57 Current Index = 21 of 70 medias
+Traceback (most recent call last):
+  File "between_boundaries.py", line 78, in <module>
+    bot.new_auto_mod()
+  File "/home/pi/Repository/instabot/src/instabot.py", line 722, in new_auto_mod
+    self.new_auto_mod_unfollow()
+  File "/home/pi/Repository/instabot/src/instabot.py", line 787, in new_auto_mod_unfollow
+    unfollow_protocol(self)
+  File "/home/pi/Repository/instabot/src/unfollow_protocol.py", line 19, in unfollow_protocol
+    follow_protocol(self)
+  File "/home/pi/Repository/instabot/src/follow_protocol.py", line 23, in follow_protocol
+    feed_scanner(self)
+  File "/home/pi/Repository/instabot/src/feed_scanner.py", line 55, in feed_scanner
+    likers_graber_protocol(self)
+  File "/home/pi/Repository/instabot/src/likers_graber_protocol.py", line 27, in likers_graber_protocol
+    likers_protocol(self)
+  File "/home/pi/Repository/instabot/src/likers_protocol.py", line 19, in likers_protocol
+    current_index]["likes"]["count"] >= 10 and self.media_by_user[self.
+KeyError: 'likes'
+12.11.2018_21:57 Trying to unfollow: 6222095519
+12.11.2018_21:57 Unfollow: 6222095519 #1 of 0.
+12.11.2018_21:57 Pausing for 29 seconds... 1 of 0
+12.11.2018_21:57 Logout: likes - 1, follow - 0, unfollow - 1, comments - 0.
+12.11.2018_21:57 Bot work time: 0:01:19.434370
+12.11.2018_21:57 Logout success!

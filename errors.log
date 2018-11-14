@@ -115,3 +115,18 @@ Traceback (most recent call last):
   File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 908, in read
     return self._sslobj.read(len, buffer)
 KeyboardInterrupt
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): i.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): i.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): ink361.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): www.instagram.com
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): i.instagram.com
